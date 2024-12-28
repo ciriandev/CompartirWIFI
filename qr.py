@@ -3,8 +3,8 @@ import qrcode.constants
 
 data = {
     "S": "MOVISTAR_7BB0",
-    "I": "WPA2-PSK",
-    "C": "3NS5tYuBb67BK3LMHKL9",
+    "T": "WPA2",
+    "P": "3NS5tYuBb67BK3LMHKL9",
 }
 wifi = f"WIFI:S:{data['S']};T:{data['T']};P:{data['P']};;"
 qr = qrcode.QRCode(
